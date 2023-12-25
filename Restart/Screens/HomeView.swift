@@ -56,6 +56,8 @@ struct HomeView: View {
                 //action
                 withAnimation {
                     isOnBoardingViewActive = true
+                    playsound(sound: "success", type: "m4a")
+                    
                 }
                 print("Button is pressed -> Restart")
             }){

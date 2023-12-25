@@ -11,6 +11,7 @@
 		A51D93B72B3802BF00FBB016 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A51D93B52B3802BF00FBB016 /* success.m4a */; };
 		A51D93C02B38074C00FBB016 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D93BF2B38074C00FBB016 /* OnBoardingView.swift */; };
 		A51D93C22B38075A00FBB016 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D93C12B38075A00FBB016 /* HomeView.swift */; };
+		A51D93C42B39611800FBB016 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D93C32B39611800FBB016 /* AudioPlayer.swift */; };
 		A57045CF2B38018F00FFA5BA /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57045CE2B38018F00FFA5BA /* RestartApp.swift */; };
 		A57045D12B38018F00FFA5BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57045D02B38018F00FFA5BA /* ContentView.swift */; };
 		A57045D32B38019100FFA5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57045D22B38019100FFA5BA /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		A51D93BC2B38066600FBB016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A51D93BF2B38074C00FBB016 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		A51D93C12B38075A00FBB016 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A51D93C32B39611800FBB016 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		A57045CB2B38018F00FFA5BA /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57045CE2B38018F00FFA5BA /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		A57045D02B38018F00FFA5BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		A51D93BB2B38050600FBB016 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A51D93C32B39611800FBB016 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				A51D93C02B38074C00FBB016 /* OnBoardingView.swift in Sources */,
 				A51D93C22B38075A00FBB016 /* HomeView.swift in Sources */,
+				A51D93C42B39611800FBB016 /* AudioPlayer.swift in Sources */,
 				A57045D12B38018F00FFA5BA /* ContentView.swift in Sources */,
 				A57045CF2B38018F00FFA5BA /* RestartApp.swift in Sources */,
 			);
